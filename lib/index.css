@@ -3,9 +3,8 @@
 }
 
 #breakfast-list, #lunch-list, #dinner-list, #snacks-list {
-  width: 328px;
-}
-
-p {
-  font-size: 18px;
+  width: 35%;
+  float: left;
+  margin-right: 10%;
+  margin-bottom: 4%;
 }
