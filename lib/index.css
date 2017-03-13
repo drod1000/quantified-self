@@ -5,6 +5,12 @@
 #breakfast-list, #lunch-list, #dinner-list, #snacks-list {
   width: 35%;
   float: left;
+  table-layout:fixed;
   margin-right: 10%;
   margin-bottom: 4%;
+}
+
+caption {
+  margin: 2%;
+  text-align: left;
 }
