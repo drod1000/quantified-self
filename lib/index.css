@@ -1,16 +1,81 @@
-#container {
-  margin-left: 25px;
+button {
+  cursor: pointer;
 }
 
-#breakfast-list, #lunch-list, #dinner-list, #snacks-list {
-  width: 35%;
+.container {
+  margin-left: 50px;
+  width: 60%;
+}
+
+#breakfast-list, #lunch-list, #dinner-list, #snacks-list, #add-food-to-diary {
+  width: 40%;
   float: left;
-  table-layout:fixed;
-  margin-right: 10%;
   margin-bottom: 4%;
 }
 
+section {
+  display: inline-block;
+}
+
+#breakfast-list, #dinner-list {
+  margin-right: 10%;
+}
+
 caption {
-  margin: 2%;
+  margin-bottom: 2%;
   text-align: left;
+  font-weight: bold;
+}
+
+th {
+  text-align: left;
+}
+
+th:nth-child(1), td:nth-child(1) {
+  width: 70%;
+}
+
+.right-align {
+  text-align: right;
+}
+
+#create-new-food, #breakfast, #lunch {
+  margin-bottom: 4%;
+}
+
+#lunch, #snacks {
+  float: right;
+}
+
+#dinner, #snacks {
+  margin-bottom: 10%;
+}
+
+#food-filter input {
+  height: 26px;
+}
+
+#add-food-list {
+  width: 110%;
+  position: relative;
+  left: -10%;
+}
+
+#add-food-list th:nth-child(1) {
+  width: 9.5%;
+  background-color: white;
+  border: none;
+}
+
+#add-food-list td:nth-child(1) {
+  width: 9.5%;
+}
+
+#add-food-list th:nth-child(2) {
+  width: 63%;
+}
+
+input[type='checkbox'] {
+  margin: 0 0 0 4px;
+  padding: 0px;
 }
