@@ -10,131 +10,148 @@
   <link type="text/css" rel="stylesheet" href="./lib/index.css" >
 </head>
 <body>
-  <div id="container">
-    <h1>Main Diary</h1>
-    <table id="breakfast-list">
-      <caption>Breakfast</caption>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Calories</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <td>Total Calories</td>
-          <td class="total-calories"></td>
-        </tr>
-        <tr>
-          <td>Remaining Calories</td>
-          <td class="remaining-calories"></td>
-        </tr>
-      </tfoot>
-      <tbody>
-        <tr class="food-row">
-          <td class="food-name">Banana</td>
-          <td class="food-calories">34</td>
-        </tr>
-        <tr class="food-row">
-          <td class="food-name">French Silk Pie</td>
-          <td class="food-calories">340</td>
-        </tr>
-      </tbody>
-    </table>
+  <h1>Main Diary</h1>
 
-    <table id="lunch-list">
-      <caption>Lunch</caption>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Calories</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <td>Total Calories</td>
-          <td class="total-calories"></td>
-        </tr>
-        <tr>
-          <td>Remaining Calories</td>
-          <td class="remaining-calories"></td>
-        </tr>
-      </tfoot>
-      <tbody>
-        <tr class="food-row">
-          <td class="food-name">Orange</td>
-          <td class="food-calories">34</td>
-        </tr>
-        <tr class="food-row">
-          <td class="food-name">Deep Dish Pizza</td><td class="food-calories">890</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="container">
+    <section class="diary">
+      <table id="breakfast-list">
+        <caption>Breakfast</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Calories</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr class="food-row">
+            <td class="food-name">Banana</td>
+            <td class="food-calories right-align">34</td>
+          </tr>
+          <tr class="food-row">
+            <td class="food-name">French Silk Pie</td>
+            <td class="food-calories right-align">340</td>
+          </tr>
+        </tbody>
+      </table>
 
-    <table id="dinner-list">
-      <caption>Dinner</caption>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Calories</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <td>Total Calories</td>
-          <td class="total-calories"></td>
-        </tr>
-        <tr>
-          <td>Remaining Calories</td>
-          <td class="remaining-calories"></td>
-        </tr>
-      </tfoot>
-      <tbody>
-        <tr class="food-row">
-          <td class="food-name">Spinach Salad w/ Dressing</td>
-          <td class="food-calories">240</td>
-        </tr>
-        <tr class="food-row">
-          <td class="food-name">Roasted Cauliflower</td>
-          <td class="food-calories">80</td>
-        </tr>
-        <tr class="food-row">
-          <td class="food-name">Chicken Breast</td>
-          <td class="food-calories">210</td>
-        </tr>
-      </tbody>
-    </table>
+      <table id="lunch-list">
+        <caption>Lunch</caption>
+        <thead>
+          <tr><th>Name</th><th>Calories</th></tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr class='food-row'><td class='food-name'>Orange</td><td class='food-calories right-align'>34</td>
+          <tr class='food-row'><td class='food-name'>Deep Dish Pizza</td><td class='food-calories right-align'>890</td>
+        </tbody>
+      </table>
 
-    <table id="snacks-list">
-      <caption>Snacks</caption>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Calories</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <td>Total Calories</td>
-          <td class="total-calories"></td>
-        </tr>
-        <tr>
-          <td>Remaining Calories</td>
-          <td class="remaining-calories"></td>
-        </tr>
-      </tfoot>
-      <tbody>
-        <tr class="food-row">
-          <td class="food-name">Dark Chocolate</td>
-          <td class="food-calories">150</td>
-        </tr>
-        <tr class="food-row">
-          <td class="food-name">Beef Jerky</td>
-          <td class="food-calories">95</td>
-        </tr>
-      </tbody>
-    </table>
+      <table id="dinner-list">
+        <caption>Dinner</caption>
+        <thead>
+          <tr><th>Name</th><th>Calories</th></tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr class='food-row'><td class='food-name'>Spinach Salad w/ Dressing</td><td class='food-calories right-align'>240</td>
+          <tr class='food-row'><td class='food-name'>Roasted Cauliflower</td><td class='food-calories right-align'>80</td>
+          <tr class='food-row'><td class='food-name'>Chicken Breast</td><td class='food-calories right-align'>210</td>
+        </tbody>
+      </table>
 
+      <table id="snacks-list">
+        <caption>Snacks</caption>
+        <thead>
+          <tr><th>Name</th><th>Calories</th></tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr class='food-row'><td class='food-name'>Dark Chocolate</td><td class='food-calories right-align'>150</td>
+          <tr class='food-row'><td class='food-name'>Beef Jerky</td><td class='food-calories right-align'>95</td>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="add-food-to-diary">
+      <h2>Foods</h2>
+      <button id="create-new-food">Create New</button>
+
+      <h3>Add Selected To</h3>
+      <button id="breakfast">Breakfast</button>
+      <button id="lunch">Lunch</button>
+      <button id="dinner">Dinner</button>
+      <button id="snacks">Snacks</button>
+
+      <div id="food-filter">
+        <label>Search by Name
+          <input type="text" name="food-name-filter">
+        </label>
+      </div>
+
+      <table id="add-food-list">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Calories</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type='checkbox' /></td>
+            <td>Yogurt</td>
+            <td class="right-align">160</td>
+          </tr>
+          <tr>
+            <td><input type='checkbox' /></td>
+            <td>Yogurt</td>
+            <td class="right-align">160</td>
+          </tr>
+          <tr>
+            <td><input type='checkbox' /></td>
+            <td>Yogurt</td>
+            <td class="right-align">160</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <table id="totals-table">
       <caption>Totals</caption>
       <tbody>
