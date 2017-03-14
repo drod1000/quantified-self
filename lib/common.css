@@ -6,10 +6,11 @@ table {
   border-collapse: collapse;
 }
 
-th {
+th, tfoot {
   background-color:lightgrey;
   font-weight: bold;
 }
+
 
 td, th {
   border:solid black 1px;
