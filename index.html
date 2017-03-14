@@ -17,11 +17,30 @@
       <table id="breakfast-list">
         <caption>Breakfast</caption>
         <thead>
-          <tr><th>Name</th><th>Calories</th></tr>
+          <tr>
+            <th>Name</th>
+            <th>Calories</th>
+          </tr>
         </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
         <tbody>
-          <tr class='food-row'><td class='food-name'>Banana</td><td class='food-calories right-align'>34</td>
-          <tr class='food-row'><td class='food-name'>French Silk Pie</td><td class='food-calories right-align'>340</td>
+          <tr class="food-row">
+            <td class="food-name">Banana</td>
+            <td class="food-calories right-align">34</td>
+          </tr>
+          <tr class="food-row">
+            <td class="food-name">French Silk Pie</td>
+            <td class="food-calories right-align">340</td>
+          </tr>
         </tbody>
       </table>
 
@@ -30,6 +49,16 @@
         <thead>
           <tr><th>Name</th><th>Calories</th></tr>
         </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
         <tbody>
           <tr class='food-row'><td class='food-name'>Orange</td><td class='food-calories right-align'>34</td>
           <tr class='food-row'><td class='food-name'>Deep Dish Pizza</td><td class='food-calories right-align'>890</td>
@@ -41,6 +70,16 @@
         <thead>
           <tr><th>Name</th><th>Calories</th></tr>
         </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
         <tbody>
           <tr class='food-row'><td class='food-name'>Spinach Salad w/ Dressing</td><td class='food-calories right-align'>240</td>
           <tr class='food-row'><td class='food-name'>Roasted Cauliflower</td><td class='food-calories right-align'>80</td>
@@ -53,6 +92,16 @@
         <thead>
           <tr><th>Name</th><th>Calories</th></tr>
         </thead>
+        <tfoot>
+          <tr>
+            <td>Total Calories</td>
+            <td class="total-calories"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories"></td>
+          </tr>
+        </tfoot>
         <tbody>
           <tr class='food-row'><td class='food-name'>Dark Chocolate</td><td class='food-calories right-align'>150</td>
           <tr class='food-row'><td class='food-name'>Beef Jerky</td><td class='food-calories right-align'>95</td>
@@ -103,5 +152,22 @@
         </tbody>
       </table>
     </section>
+    <table id="totals-table">
+      <caption>Totals</caption>
+      <tbody>
+        <tr>
+          <td>Goal Calories</td>
+          <td>2000</td>
+        </tr>
+        <tr>
+          <td>Calories Consumed</td>
+          <td class="grand-total-calories"></td>
+        </tr>
+        <tr>
+          <td>Remaining Calories</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </body>
