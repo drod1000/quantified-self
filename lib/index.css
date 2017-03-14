@@ -16,6 +16,8 @@ button {
 #totals-table tr {
   background-color:lightgrey;
   font-weight: bold;
+}
+
 section {
   display: inline-block;
 }
