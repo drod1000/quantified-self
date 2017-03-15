@@ -12,7 +12,7 @@
 <body>
   <h1>Main Diary</h1>
 
-  <div class="container">
+  <div class="index-container">
     <section class="diary">
       <table id="breakfast-list">
         <caption>Breakfast</caption>
@@ -25,11 +25,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -54,11 +54,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -81,11 +81,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -112,11 +112,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -142,7 +142,7 @@
       <button id="dinner">Dinner</button>
       <button id="snacks">Snacks</button>
 
-      <div id="food-filter">
+      <div class="food-filter">
         <label>Search by Name
           <input type="text" name="food-name-filter">
         </label>
@@ -157,40 +157,43 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="food-row">
             <td><input type='checkbox' /></td>
-            <td>Yogurt</td>
-            <td class="right-align">160</td>
+            <td class="food-name food-field">Yogurt</td>
+            <td class="food-calories food-field right-align">160</td>
           </tr>
-          <tr>
+          <tr class="food-row">
             <td><input type='checkbox' /></td>
-            <td>Yogurt</td>
-            <td class="right-align">160</td>
+            <td class="food-name food-field">Strawberries</td>
+            <td class="food-calories food-field right-align">160</td>
           </tr>
-          <tr>
+          <tr class="food-row">
             <td><input type='checkbox' /></td>
-            <td>Yogurt</td>
-            <td class="right-align">160</td>
+            <td class="food-name food-field">Granola</td>
+            <td class="food-calories food-field right-align">160</td>
           </tr>
         </tbody>
       </table>
     </section>
-    <table id="totals-table">
-      <caption>Totals</caption>
-      <tbody>
-        <tr>
-          <td>Goal Calories</td>
-          <td>2000</td>
-        </tr>
-        <tr>
-          <td>Calories Consumed</td>
-          <td class="grand-total-calories"></td>
-        </tr>
-        <tr>
-          <td>Remaining Calories</td>
-          <td class="remaining-calories"></td>
-        </tr>
-      </tbody>
-    </table>
+
+    <section id="totals">
+      <table id="totals-table">
+        <caption>Totals</caption>
+        <tbody>
+          <tr>
+            <td>Goal Calories</td>
+            <td class="right-align">2000</td>
+          </tr>
+          <tr>
+            <td>Calories Consumed</td>
+            <td class="grand-total-calories right-align"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories right-align"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </div>
 </body>

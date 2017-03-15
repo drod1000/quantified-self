@@ -12,10 +12,14 @@ td.food-delete {
 }
 
 #create-form, #food-filter {
-  width: 300px;
   position:relative;
 }
 
 #create-form {
   text-align:right;
+}
+
+.foods-container {
+  margin-left: 50px;
+  width: 327px;
 }
