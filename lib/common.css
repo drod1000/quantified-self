@@ -27,6 +27,7 @@ button {
   font-size: 16px;
   width: 150px;
   height: 2em;
+  cursor: pointer;
 }
 
 label {
@@ -41,7 +42,7 @@ input {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid black;
-  height: 2em;
+  height: 26px;
 }
 
 .validation-error {
