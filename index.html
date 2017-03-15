@@ -12,7 +12,7 @@
 <body>
   <h1>Main Diary</h1>
 
-  <div class="container">
+  <div class="index-container">
     <section class="diary">
       <table id="breakfast-list">
         <caption>Breakfast</caption>
@@ -25,11 +25,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -52,11 +52,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -73,11 +73,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -95,11 +95,11 @@
         <tfoot>
           <tr>
             <td>Total Calories</td>
-            <td class="total-calories"></td>
+            <td class="total-calories right-align"></td>
           </tr>
           <tr>
             <td>Remaining Calories</td>
-            <td class="remaining-calories"></td>
+            <td class="remaining-calories right-align"></td>
           </tr>
         </tfoot>
         <tbody>
@@ -152,22 +152,25 @@
         </tbody>
       </table>
     </section>
-    <table id="totals-table">
-      <caption>Totals</caption>
-      <tbody>
-        <tr>
-          <td>Goal Calories</td>
-          <td>2000</td>
-        </tr>
-        <tr>
-          <td>Calories Consumed</td>
-          <td class="grand-total-calories"></td>
-        </tr>
-        <tr>
-          <td>Remaining Calories</td>
-          <td class="remaining-calories"></td>
-        </tr>
-      </tbody>
-    </table>
+
+    <section id="totals">
+      <table id="totals-table">
+        <caption>Totals</caption>
+        <tbody>
+          <tr>
+            <td>Goal Calories</td>
+            <td class="right-align">2000</td>
+          </tr>
+          <tr>
+            <td>Calories Consumed</td>
+            <td class="grand-total-calories right-align"></td>
+          </tr>
+          <tr>
+            <td>Remaining Calories</td>
+            <td class="remaining-calories right-align"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </div>
 </body>
