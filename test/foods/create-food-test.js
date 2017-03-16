@@ -1,4 +1,4 @@
-describe('#create-form', function() {
+describe('Create Food', function() {
 
   beforeEach(function() {
     //Clear out all the things
@@ -35,6 +35,19 @@ describe('#create-form', function() {
       var caloriesValidationContent = $("#calories-field .validation-error").text();
       assert.equal(caloriesValidationContent, "");
     });
+  });
 
+  context('add new food', function() {
+    it('adds a food row to the top of the foods.html table', function() {
+
+    });
+
+    it('persists the added food row after refreshing foods.html', function() {
+
+    });
+
+    it('adds a food row to the index.html food table', function() {
+
+    });
   });
 });
