@@ -3,7 +3,7 @@
   width: 50%;
 }
 
-#breakfast-list, #lunch-list, #dinner-list, #snacks-list, #add-food-to-diary, #totals-table {
+.breakfast-list, .lunch-list, .dinner-list, .snacks-list, #add-food-to-diary, #totals-table {
   width: 45%;
   float: left;
   margin-bottom: 4%;
@@ -13,11 +13,11 @@ section {
   display: inline-block;
 }
 
-#lunch-list, #snacks-list {
+.lunch-list, .snacks-list {
   float: right;
 }
 
-#dinner-list {
+.dinner-list {
   clear: left;
 }
 

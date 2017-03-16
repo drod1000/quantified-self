@@ -2,19 +2,6 @@
   margin-left: 25px;
 }
 
-.food-delete button {
-  width:1em;
-  height:1em;
-  padding:0;
-  line-height:7px;
-  border-radius:100%;
-  background-color:red;
-  color:white;
-  font-weight:bold;
-  font-size:20px;
-  border:none;
-}
-
 td.food-delete {
   border-width:0;
   width:21px;
