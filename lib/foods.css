@@ -23,3 +23,7 @@ td.food-delete {
   margin-left: 50px;
   width: 327px;
 }
+
+.sort-by-calories {
+  cursor: pointer;
+}
