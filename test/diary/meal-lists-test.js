@@ -29,7 +29,7 @@ describe('.:meal-list', function() {
 
       assert.equal(nameHeaderCell, 'Name');
       assert.equal(calorieHeaderCell, 'Calories');
-    })
+    });
   });
 
   it('has total and remaining calories footers', function() {
@@ -39,6 +39,6 @@ describe('.:meal-list', function() {
 
       assert.equal(totalCell, 'Total Calories');
       assert.equal(remainingCell, 'Remaining Calories');
-    })
-  })
+    });
+  });
 });
