@@ -10,7 +10,7 @@ afterEach(function() {
   localStorage.clear();
 })
 
-describe('.breakfasttable', function() {
+describe('.:meal-list', function() {
   it('can delete a food', function(done) {
     var remainingCell = breakfastTable.children('tfoot').children('tr:nth-child(2)').children('td:nth-child(2)');
 
