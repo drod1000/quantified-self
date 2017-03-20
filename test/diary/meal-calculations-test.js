@@ -15,6 +15,10 @@ beforeEach(function() {
   localStorage.setItem('mealFoodsList', JSON.stringify(mealFoods));
 });
 
+afterEach(function() {
+  localStorage.clear();
+})
+
 describe('.:meal-list', function() {
   it('can calculate total calories', function() {
     tables.forEach(function(table) {
@@ -31,8 +35,10 @@ describe('.:meal-list', function() {
     })
   })
 
-  it('can calculate remaining calories', function() {
+  it('can calculate remaining calories', function(done) {
     var remainingCell = breakfastTable.children('tfoot').children('tr:nth-child(2)').children('td:nth-child(2)');
+
+    done();
 
     assert.equal(remainingCell.text(), '26')
 
