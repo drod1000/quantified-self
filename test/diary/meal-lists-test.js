@@ -24,8 +24,8 @@ describe('.:meal-list', function() {
 
   it('has food name and calories headers', function() {
     tables.forEach(function(table) {
-      nameHeaderCell = table.children('thead').children('tr').children('th:nth-child(1)').text()
-      calorieHeaderCell = table.children('thead').children('tr').children('th:nth-child(2)').text()
+      var nameHeaderCell = table.children('thead').children('tr').children('th:nth-child(1)').text()
+      var calorieHeaderCell = table.children('thead').children('tr').children('th:nth-child(2)').text()
 
       assert.equal(nameHeaderCell, 'Name');
       assert.equal(calorieHeaderCell, 'Calories');
@@ -34,8 +34,8 @@ describe('.:meal-list', function() {
 
   it('has total and remaining calories footers', function() {
     tables.forEach(function(table) {
-      totalCell = table.children('tfoot').children('tr:nth-child(1)').children('td:nth-child(1)').text()
-      remainingCell = table.children('tfoot').children('tr:nth-child(2)').children('td:nth-child(1)').text()
+      var totalCell = table.children('tfoot').children('tr:nth-child(1)').children('td:nth-child(1)').text()
+      var remainingCell = table.children('tfoot').children('tr:nth-child(2)').children('td:nth-child(1)').text()
 
       assert.equal(totalCell, 'Total Calories');
       assert.equal(remainingCell, 'Remaining Calories');
