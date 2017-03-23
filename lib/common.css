@@ -64,3 +64,7 @@ input {
   font-size:20px;
   border:none;
 }
+
+.food-id {
+  display: none;
+}
